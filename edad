@@ -1,1 +1,17 @@
-s
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+		int a,e,m,d;
+		printf("Fecha de nacimiento:");
+			printf("dia:");
+			scanf("%d", &d);
+				printf("mes:");
+				scanf("%d", &m);
+					printf("año:");
+		scanf("%d", &a);
+		a=2024-a;
+	printf("tu edad es:  %d ",a," años");
+		getch();
+		return 0;
+}
